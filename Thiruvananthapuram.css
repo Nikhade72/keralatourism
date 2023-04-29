@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/images/4281746510_d496079876_b_20200124154617.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+
+img {
+    margin-left: 100px;
+}
+
+
+.nav-item>a:hover {
+background-color: aqua;
+color: black;
+}
+
+.navbar-brand {
+    margin-left: 11px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.container {
+    margin-top: 50px;
+    }
+
+    .body {
+        font-family: "Roboto", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;      
+      }
+      h1 {
+        text-align: center;
+      }
+
+      .card-body{
+        border: 2px solid white;
+        background-color: gainsboro;
+    }
+      
+      .card img {
+        width: 100%; 
+        height: auto; 
+        object-fit: cover; 
+        margin-left: auto;
+      }
+      
+      
+#sticky-footer {
+    margin-top: 100px;
+    height: 45px;
+    }
+    

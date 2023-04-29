@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-image: url(/images/1-1.jpg);
+    background-size: cover;
+}
+
+img {
+    margin-left: 100px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+.nav-item>a:hover {
+    background-color: aqua;
+    color: black;
+    }
+    
+    .navbar-brand {
+        margin-left: 11px;
+    }
+
+    .text {
+        list-style: square;
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    
+    
+h4 {
+    padding-top: 20px; 
+}
+
+.container ul li a{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .container ul li>a:hover {
+    background-color: rgb(6, 8, 1)
+
+  }
+  #sticky-footer {
+    text-align: center;
+    margin-top: 200px;
+    height: 45px;
+    }
