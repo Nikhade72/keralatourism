@@ -36,18 +36,22 @@ color: black;
   -moz-osx-font-smoothing: grayscale;      
 }
 
+
+
 #sticky-footer {
     margin-top: 200px;
     height: 45px;
+    margin-bottom: 0px;
     }
-    .container {
-        margin-top: 190px;
-        }
+    
+.container {
+    margin-top: 190px;
+    }
 
-        .containerfluid {
-            text-align: center;
-            margin-bottom: 20px;
-            justify-content: center;
-          }
-        
+.containerfluid {
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    }
+
         
