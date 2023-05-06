@@ -56,8 +56,9 @@
                     <p class="message">Already registered? <a href="#">Sign In</a></p>
                   </form>
                   <form class="login-form">
-                    <input type="text" placeholder="username"/>
-                    <input type="password" placeholder="password"/>
+                    <form action="#" onsubmit="return validate()">
+                    <input type="text" placeholder="username" id="username"/>
+                    <input type="password" placeholder="password" id="password"/>
                     <button>login</button>
                     <p class="message">Not registered? <a href="signup.html">Create an account</a></p>
                   </form>
@@ -70,8 +71,7 @@
           <!-- <div class="foot container text-center"> -->
            <p class="text-center" >Copyright &copy; kerala tourism</p>
           <!-- </div> -->
-        </footer> 
-
-
+        </footer>
+        <script src="/login.js"></script>
 </body>
 </html>

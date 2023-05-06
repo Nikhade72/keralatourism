@@ -58,12 +58,13 @@
                 <p class="message">Already registered? <a href="#">Sign In</a></p>
               </form>
               <form class="login-form">
-                <input type="text" placeholder="name"/>
-                <input type="text" placeholder="email address"/>
-                <input type="password" placeholder="password"/>
-                <input type="password" placeholder="repeat password"/>
+                <form action="#" onsubmit="return validate()">
+                <input type="text" placeholder="name" id="Name"/>
+                <input type="text" placeholder="email address" id="email"/>
+                <input type="text" placeholder="phonenumber" id="phone"/>
+                <input type="password" placeholder="password" id="password"/>
                 <button>login</button>
-                <p class="message"> already registered? <a href="login.html">Login</a></p>
+                <p class="message">already registered? <a href="login.html">Login</a></p>
               </form>
             </div>
       </div>
@@ -74,8 +75,7 @@
      <!-- <div class="foot container text-center"> -->
       <p class="text-center" >Copyright &copy; kerala tourism</p>
      <!-- </div> -->
-   </footer> 
-
-
+   </footer>
+   <script src="/signup.js"></script>
 </body>
 </html>
